@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CurrencyConverter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-canadian-dollar-96" translatesAutoresizingMaskIntoConstraints="NO" id="VUd-FQ-HgY">
-                                <rect key="frame" x="16" y="146" width="70" height="70"/>
+                                <rect key="frame" x="16" y="158" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="3Hs-ve-rbR"/>
                                     <constraint firstAttribute="height" constant="70" id="KJT-D2-dFU"/>
@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chf" translatesAutoresizingMaskIntoConstraints="NO" id="HRN-VT-A4f">
-                                <rect key="frame" x="16" y="224" width="70" height="70"/>
+                                <rect key="frame" x="16" y="236" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="07p-7h-K4b"/>
                                 </constraints>
@@ -42,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gbp" translatesAutoresizingMaskIntoConstraints="NO" id="KlS-Jv-a3P">
-                                <rect key="frame" x="16" y="302" width="70" height="70"/>
+                                <rect key="frame" x="16" y="314" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="Hys-ux-Izy"/>
                                 </constraints>
@@ -54,7 +54,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jpy" translatesAutoresizingMaskIntoConstraints="NO" id="GNq-xe-g87">
-                                <rect key="frame" x="16" y="380" width="70" height="70"/>
+                                <rect key="frame" x="16" y="392" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="jUy-f1-kn6"/>
                                 </constraints>
@@ -66,7 +66,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usd" translatesAutoresizingMaskIntoConstraints="NO" id="B6f-ih-mXi">
-                                <rect key="frame" x="16" y="459" width="70" height="70"/>
+                                <rect key="frame" x="16" y="471" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="ktt-vt-N0F"/>
                                 </constraints>
@@ -78,7 +78,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="try" translatesAutoresizingMaskIntoConstraints="NO" id="qTq-4L-P39">
-                                <rect key="frame" x="16" y="537" width="70" height="70"/>
+                                <rect key="frame" x="16" y="549" width="70" height="96"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TRY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CoC-TU-isP">
                                 <rect key="frame" x="105" y="550" width="148" height="45"/>
@@ -87,7 +87,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jc2-fs-ute">
-                                <rect key="frame" x="146" y="662" width="99" height="35"/>
+                                <rect key="frame" x="146" y="700" width="99" height="37"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Get Rates"/>
                                 <connections>
@@ -95,7 +95,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7e4-Dg-8hU">
-                                <rect key="frame" x="54" y="78" width="267" height="43"/>
+                                <rect key="frame" x="54" y="90" width="285" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="Upp-wp-tGs"/>
                                 </constraints>
